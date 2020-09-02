@@ -1,0 +1,11 @@
+dreamfirst:
+ plugin:
+  support:
+   #是否开启权限验证。默认值false
+   rights: true
+   #是否开启日志记录。默认值false
+   logRecord: true
+   #是否开启xss注入过滤器。默认值false
+   xss: true
+   #是否开启安全过滤器。默认值false
+   security: true
