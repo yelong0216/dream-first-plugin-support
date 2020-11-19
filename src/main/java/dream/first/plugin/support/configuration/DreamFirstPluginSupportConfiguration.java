@@ -25,7 +25,7 @@ public class DreamFirstPluginSupportConfiguration {
 	// ===========================拦截器===========================
 
 	/**
-	 * @return 开发人员开发时的模式。取消登录验证等
+	 * 权限拦截器
 	 */
 	@Bean
 	@ConditionalOnProperty(prefix = DreamFirstPluginSupport.PROPERTIES_PREFIX, name = "rights", havingValue = "true", matchIfMissing = false)
